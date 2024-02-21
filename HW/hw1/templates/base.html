@@ -2,33 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>{% block title %}Home{% endblock %}</title>
+	<title>
+		{% block title %}
+			Базовое поведение
+		{% endblock %}
+	</title>
 </head>
 <body>
-	{% block header %}
-		<header>
-			Logo, website name
-		</header>
-	{% endblock %}
-	
-	
-	{% block menu %}
-		<nav class="menu">
-			<ul>
-				<li><a href="{{ url_for('clothing') }}">Одежда</a></li>
-				<li><a href="{{ url_for('shoes') }}">Обувь</a></li>
-				<li><a href="{{ url_for('jacket') }}">Куртки</a></li>
-			</ul>
-		</nav>
-	{% endblock %}
-	
-	
 	{% block content %}
-	{% endblock %}
-	
-	
-	{% block footer %}
-		<footer>footer</footer>
+		Cтраница не заполнена
 	{% endblock %}
 </body>
 </html>
